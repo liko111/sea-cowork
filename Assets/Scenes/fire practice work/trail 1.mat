@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: trail
+  m_Name: trail 1
   m_Shader: {fileID: -6465566751694194690, guid: 94fbd5e8afebe864bb9edf504a00b0cd, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -128,7 +128,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _dissolve_speed: {r: 1, g: 0, b: 0, a: 0}
-    - _maintexspeed: {r: -0.75, g: 0, b: 0, a: 0}
+    - _maintexspeed: {r: -1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &7708800962117348334
