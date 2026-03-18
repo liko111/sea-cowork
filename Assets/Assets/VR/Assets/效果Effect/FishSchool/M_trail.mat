@@ -123,12 +123,12 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color1: {r: 15.104688, g: 15.104688, b: 15.104688, a: 1}
-    - _Color2: {r: 0, g: 2.8458045, b: 36.758343, a: 1}
+    - _Color1: {r: 3.5648694, g: 3.5648694, b: 3.5648694, a: 1}
+    - _Color2: {r: 0, g: 3.8540833, b: 49.075268, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Offset: {r: 0, g: 0.24, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0.43, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Tiling: {r: 1, g: 7.7, b: 0, a: 0}
+    - _Tiling: {r: 1, g: 2.09, b: 0, a: 0}
     - _dissolve_speed: {r: 1, g: 0, b: 0, a: 0}
     - _maintexspeed: {r: -0.25, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
