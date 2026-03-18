@@ -52,6 +52,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Maintex:
+        m_Texture: {fileID: 2800000, guid: f377170b7b9e5f941bc814e5c129b77b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Maintex_1:
+        m_Texture: {fileID: 2800000, guid: f377170b7b9e5f941bc814e5c129b77b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -87,7 +95,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
+    - _AlphaClip: 0.05
+    - _AlphaClip_1: 0
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
@@ -101,6 +110,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
+    - _FrsnelStrength: 0.22
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -110,6 +120,8 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Scale: 35
+    - _Scale_1: 25
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -118,17 +130,36 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
+    - _X_Stretch: 10
+    - _X_Stretch_1: 0.25
+    - _Y_Stretch: 0.25
+    - _Y_Stretch_1: 10
     - _ZWrite: 1
     - _scale: 30
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color1: {r: 3.5648694, g: 3.5648694, b: 3.5648694, a: 1}
-    - _Color2: {r: 0, g: 3.8540833, b: 49.075268, a: 1}
+    - _Color1: {r: 8.483285, g: 1.0931126, b: 0, a: 1}
+    - _Color1_1: {r: 0.9845969, g: 0, b: 47.937256, a: 1}
+    - _Color2: {r: 6.171592, g: 0, b: 49.075268, a: 1}
+    - _Color2_1: {r: 0, g: 65.51933, b: 44.978867, a: 1}
+    - _Dissolve_Speed: {r: 1, g: 0, b: 0, a: 0}
+    - _Dissolve_Speed_1: {r: 2, g: 0, b: 0, a: 0}
+    - _Edge: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Offset: {r: 0, g: 0.43, b: 0, a: 0}
+    - _FresnelOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _FresnelTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Main_Tex_Speed: {r: -0.1, g: 0, b: 0, a: 0}
+    - _Main_Tex_Speed_1: {r: -0.1, g: 0, b: 0, a: 0}
+    - _MaskPoint: {r: 0, g: 0.5, b: 0, a: 0}
+    - _MaskPoint_1: {r: 0, g: 0.5, b: 0, a: 0}
+    - _Offset: {r: 0, g: -1.5, b: 0, a: 0}
+    - _Offset_1: {r: 0, g: -1.5, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Tiling: {r: 1, g: 2.09, b: 0, a: 0}
+    - _Tiling: {r: 1, g: 4, b: 0, a: 0}
+    - _Tiling_1: {r: 2, g: 4, b: 0, a: 0}
+    - _X_Stretch: {r: 0.14, g: 0, b: 0, a: 0}
+    - _Y_Stretch: {r: 0, g: 0, b: 0, a: 0}
     - _dissolve_speed: {r: 1, g: 0, b: 0, a: 0}
     - _maintexspeed: {r: -0.25, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
