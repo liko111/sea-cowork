@@ -95,14 +95,19 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _DissolveSpeed: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _Float: -0.03
+    - _FresnPower: 1.72
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
+    - _NoiseIntenisty: 1
+    - _NoiseMask: 1
+    - _NoiseScale: 5
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
@@ -117,6 +122,8 @@ Material:
     - _Wobble_Lerp_Mask: 0.05
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
+    - _X_Stretch: -0.04
+    - _Y_Stretch: 0.51
     - _ZWrite: 1
     - _verbal_frequency: 4
     - _wobble_amount: 1
@@ -127,6 +134,8 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Emission: {r: 15.181268, g: 12.651056, b: 12.651056, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MaskCenter: {r: 0.5, g: 3.27, b: 0, a: 0}
+    - _SMoothStep: {r: 0.89, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
