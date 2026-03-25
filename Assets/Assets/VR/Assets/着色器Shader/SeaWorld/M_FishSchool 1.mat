@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_FishSchool
+  m_Name: M_FishSchool 1
   m_Shader: {fileID: -6465566751694194690, guid: edfb6db0f5c3a4f449e3f869b18fe73f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -100,14 +100,16 @@ Material:
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _Float: -0.03
-    - _FresnPower: 1.72
+    - _FresnPower: 0.4
+    - _FresnelPower: 0.55
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _HeadPart_Step: -0.04
     - _Metallic: 0
     - _NoiseIntenisty: 1
-    - _NoiseMask: 1
-    - _NoiseScale: 5
+    - _NoiseMask: 1.05
+    - _NoiseScale: 8.48
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
@@ -118,11 +120,12 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
+    - _Step: 0.32
     - _Surface: 0
     - _Wobble_Lerp_Mask: 0.05
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
-    - _X_Stretch: -0.04
+    - _X_Stretch: -0.62
     - _Y_Stretch: 0.51
     - _ZWrite: 1
     - _verbal_frequency: 4
@@ -132,11 +135,17 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Emission: {r: 15.181268, g: 12.651056, b: 12.651056, a: 1}
+    - _Emission: {r: 8.474189, g: 7.0618243, b: 7.0618243, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MaskCenter: {r: 0.5, g: 3.27, b: 0, a: 0}
-    - _SMoothStep: {r: 0.89, g: 1, b: 0, a: 0}
+    - _FresnelColor: {r: 5.9921565, g: 5.9921565, b: 5.9921565, a: 1}
+    - _HeadPart_SStep: {r: -0.76, g: 1, b: 0, a: 0}
+    - _LerpColor_A: {r: 0, g: 0, b: 0, a: 1}
+    - _MaskCenter: {r: 0.5, g: -1.01, b: 0, a: 0}
+    - _NoiseSStep: {r: 0, g: 1, b: 0, a: 0}
+    - _SMoothStep: {r: 0.95, g: 1, b: 0, a: 0}
+    - _SmoothStep: {r: 0.9, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Tail_SStep: {r: 0.2, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &4082628557622006182
