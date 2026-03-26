@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_FishSchool 2
+  m_Name: M_FishSchool 3
   m_Shader: {fileID: -6465566751694194690, guid: edfb6db0f5c3a4f449e3f869b18fe73f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -49,7 +49,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissiveTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7b4f1cc574a15464abc0336b01c280f9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -115,7 +115,7 @@ Material:
     - _NoiseMask: 1
     - _NoiseScale: 5
     - _OcclusionStrength: 1
-    - _Outline_EmissiveIntensity: 0
+    - _Outline_EmissiveIntensity: 6
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -147,7 +147,7 @@ Material:
     - _LerpColor_A: {r: 0, g: 0, b: 0, a: 1}
     - _MaskCenter: {r: 0.5, g: 3.27, b: 0, a: 0}
     - _NoiseSStep: {r: 0, g: 1, b: 0, a: 0}
-    - _OutlineColor: {r: 0.7490197, g: 0.7490197, b: 0.7490197, a: 1}
+    - _OutlineColor: {r: 2.6415086, g: 3.0008414, b: 8, a: 1}
     - _SMoothStep: {r: 0.89, g: 1, b: 0, a: 0}
     - _SmoothStep: {r: 0, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
