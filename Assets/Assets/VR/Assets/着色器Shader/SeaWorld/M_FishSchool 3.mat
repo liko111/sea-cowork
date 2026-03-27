@@ -87,7 +87,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AddPrecomputedVelocity: 0
-    - _Alpha: 0.1
+    - _Alpha: 1
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -99,7 +99,8 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DissolveSpeed: 1
+    - _DissolveIntensity: 0
+    - _DissolveSpeed: -0.4
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
@@ -113,45 +114,83 @@ Material:
     - _Metallic: 0
     - _NoiseIntenisty: 1
     - _NoiseMask: 1
-    - _NoiseScale: 5
+    - _NoiseMask_1: 1
+    - _NoiseMask_2: 1
+    - _NoiseScale: 13.5
+    - _NoiseScale_2: 50
+    - _NoiseScale_Gradient: 4
+    - _NoiseScale_Voronoi: 2
+    - _Noise_Tiling: 16.6
     - _OcclusionStrength: 1
-    - _Outline_EmissiveIntensity: 6
+    - _Outline_EmissiveIntensity: 4
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
+    - _Sobble_Speed: 2
+    - _Sobble_Speed_1: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Step: 0.5
     - _Surface: 0
-    - _Wobble_Lerp_Mask: 0.05
+    - _Verbal_Frequency: 2
+    - _Verbal_Frequency_1: 2
+    - _Wobble_Amount: 1
+    - _Wobble_Amount_1: 1
+    - _Wobble_Distance: 0.5
+    - _Wobble_Distance_1: 0.35
+    - _Wobble_Frequency: 2
+    - _Wobble_Frequency_1: 0.2
+    - _Wobble_Lerp_Mask: 1
+    - _Wobble_Lerp_Mask_1: 1
+    - _Wobble_Speed: 2
+    - _Wobble_Speed_1: 1
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _X_Stretch: -0.04
-    - _Y_Stretch: 0.51
+    - _X_Stretch_1: 0.29
+    - _X_Stretch_2: 0.29
+    - _X_Stretch_Wobble: 0.13
+    - _X_Stretch_Wobble_1: 0.13
+    - _Y_Stretch: 1.1
+    - _Y_Stretch_1: 0.42
+    - _Y_Stretch_2: 0.77
+    - _Y_Stretch_Wobble: 0.32
+    - _Y_Stretch_Wobble_1: 0.32
     - _ZWrite: 1
+    - _Z_Stretch_Wobble: 0.14
+    - _Z_Stretch_Wobble_1: 0.14
     - _verbal_frequency: 4
-    - _wobble_amount: 0
+    - _wobble_amount: 0.25
     - _wobble_distance: 2
     - _wobble_speed: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Emission: {r: 15.181268, g: 12.651056, b: 12.651056, a: 1}
+    - _Edge_WobbleMask: {r: 0.39, g: 1, b: 0, a: 0}
+    - _Edge_WobbleMask_1: {r: -8.76, g: 1, b: 0, a: 0}
+    - _Emission: {r: 2.9960783, g: 2.496732, b: 2.496732, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FresnelColor: {r: 12.844468, g: 12.844468, b: 12.844468, a: 1}
+    - _FresnelColor: {r: 2.9960783, g: 2.9960783, b: 2.9960783, a: 1}
     - _HeadPart_SStep: {r: 0, g: 1, b: 0, a: 0}
     - _LerpColor_A: {r: 0, g: 0, b: 0, a: 1}
-    - _MaskCenter: {r: 0.5, g: 3.27, b: 0, a: 0}
+    - _MaskCenter: {r: 0, g: -0.36, b: 0, a: 0}
+    - _MaskCenter_1: {r: -2.3, g: 0.08, b: 0, a: 0}
+    - _MaskCenter_2: {r: -1.14, g: 0, b: 0, a: 0}
     - _NoiseSStep: {r: 0, g: 1, b: 0, a: 0}
-    - _OutlineColor: {r: 2.6415086, g: 3.0008414, b: 8, a: 1}
+    - _OutlineColor: {r: 1.978542, g: 2.2476892, b: 5.9921575, a: 1}
     - _SMoothStep: {r: 0.89, g: 1, b: 0, a: 0}
-    - _SmoothStep: {r: 0, g: 1, b: 0, a: 0}
+    - _SmoothStep: {r: 0.9, g: 1, b: 0, a: 0}
+    - _SmoothStepEmissive: {r: 0.25, g: 1, b: 0, a: 0}
+    - _SmoothStep_1: {r: 0.56, g: 1, b: 0, a: 0}
+    - _SmoothStep_2: {r: 0.66, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Tail_SStep: {r: 0, g: 1, b: 0, a: 0}
+    - _Tail_SStep: {r: 0.5, g: 1, b: 0, a: 0}
+    - _WobbleCenter: {r: -1.7, g: 0, b: 0, a: 0}
+    - _WobbleCenter_1: {r: -1.7, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &4082628557622006182
