@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_FishSchool 3
-  m_Shader: {fileID: -6465566751694194690, guid: edfb6db0f5c3a4f449e3f869b18fe73f, type: 3}
+  m_Name: M_FishSchool_Test
+  m_Shader: {fileID: -6465566751694194690, guid: 26ef82c408bc30742b71756b8cdb1424, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -72,6 +72,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -95,6 +99,7 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _Coeffcient_Vertex_Movement: 0.5
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -114,7 +119,7 @@ Material:
     - _Metallic: 0
     - _NoiseIntenisty: 1
     - _NoiseMask: 1
-    - _NoiseMask_1: 1
+    - _NoiseMask_1: 0.1
     - _NoiseMask_2: 1
     - _NoiseScale: 13.5
     - _NoiseScale_2: 50
@@ -151,16 +156,17 @@ Material:
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _X_Stretch: -0.04
-    - _X_Stretch_1: 0.29
-    - _X_Stretch_2: 0.29
+    - _X_Stretch_1: 5
+    - _X_Stretch_2: 2
     - _X_Stretch_Wobble: 0.13
     - _X_Stretch_Wobble_1: 0.13
     - _Y_Stretch: 1.1
-    - _Y_Stretch_1: 0.42
-    - _Y_Stretch_2: 0.77
+    - _Y_Stretch_1: 2
+    - _Y_Stretch_2: 2
     - _Y_Stretch_Wobble: 0.32
     - _Y_Stretch_Wobble_1: 0.32
     - _ZWrite: 1
+    - _Z_Stretch_1: 0.1
     - _Z_Stretch_Wobble: 0.14
     - _Z_Stretch_Wobble_1: 0.14
     - _verbal_frequency: 4
@@ -169,7 +175,9 @@ Material:
     - _wobble_speed: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.33018854, g: 0.5410154, b: 1, a: 1}
+    - _ColorA: {r: 1, g: 0, b: 0, a: 1}
+    - _ColorB: {r: 0, g: 0.109457254, b: 1, a: 1}
     - _Edge_WobbleMask: {r: 0.39, g: 1, b: 0, a: 0}
     - _Edge_WobbleMask_1: {r: -8.76, g: 1, b: 0, a: 0}
     - _Emission: {r: 2.9960783, g: 2.496732, b: 2.496732, a: 1}
@@ -178,17 +186,20 @@ Material:
     - _HeadPart_SStep: {r: 0, g: 1, b: 0, a: 0}
     - _LerpColor_A: {r: 0, g: 0, b: 0, a: 1}
     - _MaskCenter: {r: 0, g: -0.36, b: 0, a: 0}
-    - _MaskCenter_1: {r: -2.3, g: 0.08, b: 0, a: 0}
-    - _MaskCenter_2: {r: -1.14, g: 0, b: 0, a: 0}
+    - _MaskCenter_1: {r: -0.45, g: 0, b: 0, a: 0}
+    - _MaskCenter_2: {r: -1.01, g: 0, b: 0, a: 0}
     - _NoiseSStep: {r: 0, g: 1, b: 0, a: 0}
     - _OutlineColor: {r: 1.978542, g: 2.2476892, b: 5.9921575, a: 1}
     - _SMoothStep: {r: 0.89, g: 1, b: 0, a: 0}
     - _SmoothStep: {r: 0.9, g: 1, b: 0, a: 0}
     - _SmoothStepEmissive: {r: 0.25, g: 1, b: 0, a: 0}
-    - _SmoothStep_1: {r: 0.56, g: 1, b: 0, a: 0}
+    - _SmoothStep_1: {r: 0.21, g: 1, b: 0, a: 0}
     - _SmoothStep_2: {r: 0.66, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Tail_SStep: {r: 0.5, g: 1, b: 0, a: 0}
+    - _Vector2: {r: 9.58, g: 18.78, b: 0, a: 0}
+    - _Vector2_1: {r: 0, g: 0, b: 0, a: 0}
+    - _Vector4: {r: 0.3301885, g: 0.5410154, b: 1, a: 1}
     - _WobbleCenter: {r: -1.7, g: 0, b: 0, a: 0}
     - _WobbleCenter_1: {r: -1.7, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
