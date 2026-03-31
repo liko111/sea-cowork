@@ -119,9 +119,9 @@ public class ParticleFishGlowPulse : MonoBehaviour
         {
             Vector4 data = custom1[i];
 
-            float currentIntensity = data.x;
-            GlowState state = (GlowState)Mathf.RoundToInt(data.y);
-            float stateTimer = data.z;
+            GlowState state = (GlowState)Mathf.RoundToInt(data.x);
+            float stateTimer = data.y;
+            float currentIntensity = data.z;
 
             Vector3 worldPos = GetParticleWorldPosition(particles[i].position);
             bool touched = IsInsideAnyTriggerCollider(worldPos);
@@ -215,9 +215,9 @@ public class ParticleFishGlowPulse : MonoBehaviour
                     }
             }
 
-            data.x = currentIntensity;
-            data.y = (float)state;
-            data.z = stateTimer;
+            data.x = (float)state;
+            data.y = stateTimer;
+            data.z = currentIntensity;
             data.w = touched ? 1f : 0f;
 
             custom1[i] = data;
@@ -254,7 +254,7 @@ public class ParticleFishGlowPulse : MonoBehaviour
             int toAdd = count - custom1.Count;
             for (int i = 0; i < toAdd; i++)
             {
-                custom1.Add(new Vector4(minIntensity, (float)GlowState.Idle, 0f, 0f));
+                custom1.Add(new Vector4((float)GlowState.Idle, 0f, minIntensity, 0f));
             }
         }
         else if (custom1.Count > count)
@@ -385,7 +385,7 @@ public class ParticleFishGlowPulse : MonoBehaviour
 
         for (int i = 0; i < count; i++)
         {
-            custom1[i] = new Vector4(minIntensity, (float)GlowState.Idle, 0f, 0f);
+            custom1[i] = new Vector4((float)GlowState.Idle, 0f, minIntensity, 0f);
         }
 
         ps.SetCustomParticleData(custom1, ParticleSystemCustomData.Custom1);

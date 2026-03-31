@@ -108,7 +108,7 @@ Material:
     - _EnvironmentReflections: 1
     - _Float: -0.03
     - _FresnPower: 0.4
-    - _FresnelPower: 1
+    - _FresnelPower: 2.14
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -126,6 +126,7 @@ Material:
     - _Noise_Tiling: 16.6
     - _OcclusionStrength: 1
     - _Outline_EmissiveIntensity: 4
+    - _Outline_EmissiveIntensity_xxxxxx: 3.48
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -184,7 +185,7 @@ Material:
     - _LerpColor_A: {r: 0, g: 0, b: 0, a: 1}
     - _MaskCenter: {r: 0, g: -0.36, b: 0, a: 0}
     - _MaskCenter_1: {r: 0.33, g: -1.49, b: 0, a: 0}
-    - _MaskCenter_2: {r: 0.49, g: -0.7, b: 0, a: 0}
+    - _MaskCenter_2: {r: 0.49, g: -0.7, b: 229, a: 0}
     - _NoiseSStep: {r: 0, g: 1, b: 0, a: 0}
     - _OutlineColor: {r: 1.978542, g: 2.2476892, b: 5.9921575, a: 1}
     - _SMoothStep: {r: 0.89, g: 1, b: 0, a: 0}

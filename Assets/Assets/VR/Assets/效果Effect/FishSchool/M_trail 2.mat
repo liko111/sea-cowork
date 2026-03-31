@@ -140,9 +140,9 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color1: {r: 3.0621293, g: 9.545056, b: 1.5908418, a: 1}
-    - _Color1_1: {r: 0.9845969, g: 0, b: 47.937256, a: 1}
+    - _Color1_1: {r: 7.8767753, g: 0, b: 383.49805, a: 1}
     - _Color2: {r: 6.171592, g: 0, b: 49.075268, a: 1}
-    - _Color2_1: {r: 0, g: 65.51933, b: 44.978867, a: 1}
+    - _Color2_1: {r: 0, g: 131.03867, b: 89.95773, a: 1}
     - _Dissolve_Speed: {r: 1, g: 0, b: 0, a: 0}
     - _Dissolve_Speed_1: {r: 2, g: 0, b: 0, a: 0}
     - _Edge: {r: 1, g: 1, b: 0, a: 0}
@@ -153,11 +153,11 @@ Material:
     - _Main_Tex_Speed_1: {r: -0.1, g: 0, b: 0, a: 0}
     - _MaskPoint: {r: 0, g: 0.5, b: 0, a: 0}
     - _MaskPoint_1: {r: 0, g: 0.5, b: 0, a: 0}
-    - _Offset: {r: 0, g: -1.5, b: 0, a: 0}
-    - _Offset_1: {r: 0, g: -1.5, b: 0, a: 0}
+    - _Offset: {r: 0, g: -1.05, b: 0, a: 0}
+    - _Offset_1: {r: 0, g: -2, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Tiling: {r: 1, g: 4, b: 0, a: 0}
-    - _Tiling_1: {r: 2, g: 4, b: 0, a: 0}
+    - _Tiling: {r: 1, g: 9.05, b: 0, a: 0}
+    - _Tiling_1: {r: 2, g: 5, b: 0, a: 0}
     - _X_Stretch: {r: 0.14, g: 0, b: 0, a: 0}
     - _Y_Stretch: {r: 0, g: 0, b: 0, a: 0}
     - _dissolve_speed: {r: 1, g: 0, b: 0, a: 0}
