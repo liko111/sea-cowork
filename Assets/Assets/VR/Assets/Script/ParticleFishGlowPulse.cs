@@ -119,9 +119,9 @@ public class ParticleFishGlowPulse : MonoBehaviour
         {
             Vector4 data = custom1[i];
 
-            GlowState state = (GlowState)Mathf.RoundToInt(data.x);
-            float stateTimer = data.y;
-            float currentIntensity = data.z;
+            GlowState state = (GlowState)Mathf.RoundToInt(data.y);
+            float stateTimer = data.z;
+            float currentIntensity = data.w;
 
             Vector3 worldPos = GetParticleWorldPosition(particles[i].position);
             bool touched = IsInsideAnyTriggerCollider(worldPos);
@@ -215,10 +215,15 @@ public class ParticleFishGlowPulse : MonoBehaviour
                     }
             }
 
-            data.x = (float)state;
-            data.y = stateTimer;
-            data.z = currentIntensity;
-            data.w = touched ? 1f : 0f;
+            // Packing strategy for current renderer layout:
+            // Custom1.x -> UV0.b   (keep constant 0 so UV0.rgb stays untouched)
+            // Custom1.y -> UV0.a   (state only, allowed)
+            // Custom1.z -> UV1.r   (timer)
+            // Custom1.w -> UV1.g   (glow intensity used by shader)
+            data.x = 0f;
+            data.y = (float)state;
+            data.z = stateTimer;
+            data.w = currentIntensity;
 
             custom1[i] = data;
 
@@ -254,7 +259,7 @@ public class ParticleFishGlowPulse : MonoBehaviour
             int toAdd = count - custom1.Count;
             for (int i = 0; i < toAdd; i++)
             {
-                custom1.Add(new Vector4((float)GlowState.Idle, 0f, minIntensity, 0f));
+                custom1.Add(new Vector4(0f, (float)GlowState.Idle, 0f, minIntensity));
             }
         }
         else if (custom1.Count > count)
@@ -385,7 +390,7 @@ public class ParticleFishGlowPulse : MonoBehaviour
 
         for (int i = 0; i < count; i++)
         {
-            custom1[i] = new Vector4((float)GlowState.Idle, 0f, minIntensity, 0f);
+            custom1[i] = new Vector4(0f, (float)GlowState.Idle, 0f, minIntensity);
         }
 
         ps.SetCustomParticleData(custom1, ParticleSystemCustomData.Custom1);
