@@ -12,6 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _EMISSION
   - _NORMALMAP
   - _SPECULAR_COLOR
   - _SURFACE_TYPE_TRANSPARENT
@@ -172,6 +173,7 @@ Material:
     - _WaveScale: 1
     - _WaveSpeed: 0
     - _WaveWidth: 1
+    - _XRMotionVectorsPass: 1
     - _ZWrite: 0
     - __dirty: 0
     m_Colors:
