@@ -119,6 +119,7 @@ Material:
     - _base_scale: 0.01
     - _base_speed: 20
     - _base_strenght: 2
+    - _curvatu_radius: 422.1
     - _height: 100
     - _none_edge1: -1
     - _none_edge2: 2
