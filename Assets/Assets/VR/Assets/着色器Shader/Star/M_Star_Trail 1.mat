@@ -153,9 +153,9 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CenterPoint: {r: 0.1, g: 0, b: 0, a: 0}
-    - _CenterPoint_End: {r: 14.05, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CenterPoint: {r: 3.07, g: 0, b: 0, a: 0}
+    - _CenterPoint_End: {r: 11.72, g: 0, b: 0, a: 0}
+    - _Color: {r: 4.194135, g: 6.9154215, b: 28.377357, a: 1}
     - _Color1: {r: 0.8930817, g: 0.1207625, b: 0.1207625, a: 1}
     - _Color1_1: {r: 0.8930817, g: 0.1207625, b: 0.1207625, a: 1}
     - _Color2: {r: 0.1832008, g: 0.2466101, b: 0.9874213, a: 1}
