@@ -112,20 +112,29 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _UVsize: 0.01
+    - _UVsize: 0.02
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
+    - _base_scale: 0.01
+    - _base_speed: 20
+    - _base_strenght: 2
     - _height: 100
-    - _time_speed: -1.4
+    - _none_edge1: -1
+    - _none_edge2: 2
+    - _none_height: 30
+    - _none_power: 2
+    - _time_speed: 30
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color_peak: {r: 4, g: 4, b: 4, a: 0}
+    - _Color_valley: {r: 0, g: 0.0230972, b: 0.056603774, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Rotate_Projection: {r: 1, g: 0, b: 0, a: 90}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Vector4: {r: 0.24, g: -0.63, b: -0.57, a: -1.24}
-    - _noise_remap: {r: 0, g: 0, b: 0, a: 0}
+    - _noise_remap: {r: 0, g: 1, b: -0.3, a: 2.7}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &8095664219444013935
