@@ -13,6 +13,35 @@ MonoBehaviour:
   m_Name: WaterCausticsEffect
   m_EditorClassIdentifier: WaterCausticsModules.Effect::MH.WaterCausticsModules.WaterCausticsEffectFeature
   m_Active: 1
+--- !u!114 &-5761818373306272325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac1b73383ae410d8e277450af64d970, type: 3}
+  m_Name: Analytical Volumetric Lighting
+  m_EditorClassIdentifier: Assembly-CSharp::AkiDevCat.AVL.Rendering.AVLRenderFeature
+  m_Active: 1
+  _settings:
+    ClusteringShader: {fileID: 7200000, guid: 9c1586f774fa47c7a62565dafa7c1cbf, type: 3}
+    RenderingShader: {fileID: 4800000, guid: 2d7019988494484596b679d293a0dfeb, type: 3}
+    DebugShader: {fileID: 4800000, guid: e2a515e7e7c24926abfaa53800afd988, type: 3}
+    renderingQuality: 1
+    enableHDR: 1
+    maxLights: 4096
+    maxMasks: 128
+    enableUpscaling: 1
+    enableDepthCulling: 1
+    cullingClusterSizeX: 32
+    cullingClusterSizeY: 18
+    exportVolumetricLightTexture: 0
+    lightModel: 0
+    debugMode: 0
+    debugOpacity: 0.04
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40,7 +69,8 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: 7833122117494664109}
   - {fileID: -6947011638594640613}
-  m_RendererFeatureMap: ad6b866f10d7b46c1be50fb7b841979f
+  - {fileID: -5761818373306272325}
+  m_RendererFeatureMap: ad6b866f10d7b46c1be50fb7b841979fbbb5c286b7e809b0
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}

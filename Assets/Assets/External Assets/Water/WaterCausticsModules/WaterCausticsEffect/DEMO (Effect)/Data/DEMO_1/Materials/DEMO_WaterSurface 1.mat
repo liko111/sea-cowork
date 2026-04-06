@@ -41,7 +41,7 @@ Material:
     - _USE_WATER_COLOR: 0
     - _WaterColorDepthA: 1
     - _WaterColorDepthB: 10
-    - _WaveDensity: 0.32
+    - _WaveDensity: 0.22
     - _WaveFluctuation: 1.14
     - _WaveHeight: 0.05
     - _WaveMoveX: -0.44
