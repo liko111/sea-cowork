@@ -74,7 +74,7 @@ Material:
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
     - _FresnelEdge: 1
-    - _FresnelPower: 6.92
+    - _FresnelPower: 0.63
     - _Gradient_Alpha_Offset: 0
     - _Gradient_Alpha_Tiling: 0
     - _MaterialID: 1
@@ -137,7 +137,7 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FresnelColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
     - _FresnelFrontColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FresnelShadesColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelShadesColor: {r: 0.15723258, g: 0.0578497, b: 0.07482958, a: 1}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
     - _Spec_H_Color: {r: 0, g: 0, b: 0, a: 1}
