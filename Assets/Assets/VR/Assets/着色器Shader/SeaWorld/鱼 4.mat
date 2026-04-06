@@ -130,7 +130,7 @@ Material:
     - _1stRemap_In: {r: 0, g: 1, b: 0, a: 0}
     - _1stRemap_Out: {r: 1, g: 0, b: 0, a: 0}
     - _2edRemap_Out: {r: 0.3, g: 1, b: 0, a: 0}
-    - _Color: {r: 0, g: 0.1272206, b: 0.16862746, a: 1}
+    - _Color: {r: 0, g: 0.049056612, b: 0.2264151, a: 1}
     - _DiffuseColor: {r: 0, g: 0, b: 0, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1476152655063496937
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -7,14 +20,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: "\u8D1D\u58F3 \u52FE\u8FB9"
+  m_Name: "\u7901\u77F3"
   m_Shader: {fileID: -6465566751694194690, guid: 22dc685d6ef979a4789c3cc8a18326fa, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _DISABLE_SSR_TRANSPARENT
-  m_LightmapFlags: 0
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
@@ -74,7 +87,7 @@ Material:
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
     - _FresnelEdge: 1
-    - _FresnelPower: 0.63
+    - _FresnelPower: 14.93
     - _Gradient_Alpha_Offset: 0
     - _Gradient_Alpha_Tiling: 0
     - _MaterialID: 1
@@ -93,7 +106,7 @@ Material:
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
     - _Shades: 0.49
-    - _Smoothness: 1
+    - _Smoothness: 0.1
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 1
@@ -105,14 +118,14 @@ Material:
     - _StencilWriteMaskDistortionVec: 4
     - _StencilWriteMaskGBuffer: 15
     - _StencilWriteMaskMV: 43
-    - _StepDiffuse: 0
-    - _StepShadow: 0
-    - _StepSpec: 0
-    - _StepSpec_H: 0
+    - _StepDiffuse: 0.614
+    - _StepShadow: 0.269
+    - _StepSpec: 0.655
+    - _StepSpec_H: 0.662
     - _SupportDecals: 1
     - _SurfaceType: 0
     - _T_Alpha: 4.04
-    - _T_FresnelPower: 6
+    - _T_FresnelPower: 0
     - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
@@ -137,26 +150,13 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FresnelColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}
     - _FresnelFrontColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FresnelShadesColor: {r: 0.003045753, g: 0.034618843, b: 0.088050246, a: 1}
+    - _FresnelShadesColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
     - _Spec_H_Color: {r: 0, g: 0, b: 0, a: 1}
-    - _T_BaseColor: {r: 0, g: 0, b: 0, a: 0}
+    - _T_BaseColor: {r: 0, g: 0.010882983, b: 0.039215688, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &387789398435707999
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
-  version: 10
 --- !u!114 &9219571850792845096
 MonoBehaviour:
   m_ObjectHideFlags: 11
