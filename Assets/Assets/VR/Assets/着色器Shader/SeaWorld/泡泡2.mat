@@ -304,7 +304,7 @@ Material:
     - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
     - _Spec_H_Color: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _T_BaseColor: {r: 0, g: 14.176972, b: 23.67026, a: 0}
+    - _T_BaseColor: {r: 13.415791, g: 23.117807, b: 31.601648, a: 0}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}

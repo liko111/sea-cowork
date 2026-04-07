@@ -73,7 +73,7 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
-    - _FresnelEdge: 1
+    - _FresnelEdge: -0.15
     - _FresnelPower: 6
     - _Gradient_Alpha_Offset: 0
     - _Gradient_Alpha_Tiling: 0
@@ -112,7 +112,7 @@ Material:
     - _SupportDecals: 1
     - _SurfaceType: 0
     - _T_Alpha: 4.04
-    - _T_FresnelPower: 6
+    - _T_FresnelPower: 6.06
     - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
@@ -130,7 +130,7 @@ Material:
     - _1stRemap_In: {r: 0, g: 1, b: 0, a: 0}
     - _1stRemap_Out: {r: 1, g: 0, b: 0, a: 0}
     - _2edRemap_Out: {r: 0.3, g: 1, b: 0, a: 0}
-    - _Color: {r: 0, g: 0.049056612, b: 0.2264151, a: 1}
+    - _Color: {r: 0.042423118, g: 0.12638566, b: 0.408805, a: 1}
     - _DiffuseColor: {r: 0, g: 0, b: 0, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

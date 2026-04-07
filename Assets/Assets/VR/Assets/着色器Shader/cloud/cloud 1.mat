@@ -123,8 +123,8 @@ Material:
     - _emission_strength: 0
     - _emmision_strength: 0
     - _fade_depth: 100
-    - _fresnel_opacity: 24
-    - _fresnel_power: 17.1
+    - _fresnel_opacity: 1
+    - _fresnel_power: 15
     - _height: 100
     - _none_edge1: -1
     - _none_edge2: 2
