@@ -53,7 +53,7 @@ Material:
     - _Smoothness: 0
     - _XRMotionVectorsPass: 1
     m_Colors:
-    - _Color: {r: 2.9401677, g: 37.86806, b: 44.522633, a: 1}
+    - _Color: {r: 4.972276, g: 25.970076, b: 29.833675, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6147085795939098982

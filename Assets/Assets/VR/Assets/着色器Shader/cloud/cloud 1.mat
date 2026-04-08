@@ -123,8 +123,8 @@ Material:
     - _emission_strength: 0
     - _emmision_strength: 0
     - _fade_depth: 100
-    - _fresnel_opacity: 1
-    - _fresnel_power: 15
+    - _fresnel_opacity: 2.87
+    - _fresnel_power: 17.76
     - _height: 100
     - _none_edge1: -1
     - _none_edge2: 2
@@ -134,8 +134,8 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color_peak: {r: 0.2518294, g: 0.56346047, b: 0.7484276, a: 1}
-    - _Color_valley: {r: 0, g: 0.0111625735, b: 0.34474066, a: 1}
+    - _Color_peak: {r: 0.4648945, g: 0.75046587, b: 0.91823894, a: 1}
+    - _Color_valley: {r: 0.09993665, g: 0.10317638, b: 0.19496846, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Rotate_Projection: {r: 1, g: 0, b: 0, a: 90}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
