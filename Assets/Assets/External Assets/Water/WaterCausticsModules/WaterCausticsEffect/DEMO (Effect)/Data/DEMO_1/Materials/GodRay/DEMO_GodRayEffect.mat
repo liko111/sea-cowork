@@ -39,9 +39,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _DepthCoef: 0.0031007752
+    - _DepthCoef: 0.25
     - _DepthFade: 1
-    - _Intensity: 1
+    - _Intensity: 0.06
     - _RECEIVE_SHADOWS_OFF: 1
     - _SightDepthFadeRange: 1
     - _SightDepthFadeStart: 2
