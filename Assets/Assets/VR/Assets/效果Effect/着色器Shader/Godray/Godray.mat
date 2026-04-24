@@ -135,11 +135,11 @@ Material:
     - _XRMotionVectorsPass: 1
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 0.8553459, g: 0.83690464, b: 0.7396859, a: 1}
+    - _BaseColor: {r: 0.5031446, g: 0.47832018, b: 0.35916296, a: 1}
     - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 0.8553459, g: 0.83690464, b: 0.73968583, a: 1}
-    - _EmissionColor: {r: 0.85490197, g: 0.8352941, b: 0.7411765, a: 1}
+    - _Color: {r: 0.50314456, g: 0.47832012, b: 0.35916293, a: 1}
+    - _EmissionColor: {r: 0.106862746, g: 0.104411766, b: 0.09264706, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
